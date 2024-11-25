@@ -91,7 +91,7 @@ function timer(first, second) {
     },1000);
   }
   
-  timer(5,15);
+//   timer(5,15);
 
 // Задание 5 // 
 // 1 вариант
@@ -102,5 +102,4 @@ degree1(3, 4);
 let degree2 = (x, n) => console.log(x ** n);
 
 degree2(5, 3);
-
 
