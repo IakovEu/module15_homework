@@ -21,3 +21,4 @@ export function getMonth(n) {
 	if (n === 12) return 'декабрь';
 	return 'неизвестно';
 }
+
