@@ -6,7 +6,7 @@ export function reverseStr(str) {
 	return str.split('').reverse().join('');
 }
 
-export function getMonth(n) {
+function getMonth(n) {
 	if (n === 1) return 'январь';
 	if (n === 2) return 'февраль';
 	if (n === 3) return 'март';
@@ -21,4 +21,6 @@ export function getMonth(n) {
 	if (n === 12) return 'декабрь';
 	return 'неизвестно';
 }
+
+module.exports = getMonth;
 
