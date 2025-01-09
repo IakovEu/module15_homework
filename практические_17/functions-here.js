@@ -23,4 +23,3 @@ function getMonth(n) {
 }
 
 module.exports = getMonth;
-
